@@ -3,6 +3,10 @@ Entrada de datos por input()
 La funcion input() permite leer datos que ingresa
 el usuario por teclado
 ejemplo: nombre = input("Ingrese su nombre")
+
+"""
+
+"""
 Ejercicio 9: Calcular el promedio de 3 notas que el usuario
 ingrese por teclado
 """
@@ -13,7 +17,7 @@ calificacion_2 = int(input("Ingrese calificacion 2: "))
 calificacion_3 = int(input("Ingrese calificacion 3: "))
 
 promedio = (calificacion_1 + calificacion_2+calificacion_3) / 3
-print("El promedio es:", (promedio)) #A corregir. 
+print("El promedio es:", promedio) #A corregir. 
 #Como en este caso si nos interesa los decimelas aplicamos float a promedio.
 
 """
@@ -26,7 +30,7 @@ Para convertir valores usamos:
 Ejemplo:
 edad = int(input("Ingrese su edad: "))
 print("Tu edad es:", edad)
-Importante: input() siempre devuelve texto (string).
+Importante: input() siempre devuelve una cadena de texto (string).
 """
 
 """
@@ -54,3 +58,4 @@ print("Un gusto conocerlo", nombre, apellido)
 Ejercicio 13:
 Pedir año de nacimiento y calcular edad.
 """
+
