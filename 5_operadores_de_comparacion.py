@@ -2,9 +2,10 @@
 Los operadores de comparacion permiten comparar dos 
 valores y devuelven siempre un booleano (true o false)
 
- distinto de !=
- mayor o igual >=
- menor o igual <=
+ distinto de: !=
+ mayor o igual: >=
+ menor o igual: <=
+ igual a: ==
 """
 #Ejemplo
 x = 10

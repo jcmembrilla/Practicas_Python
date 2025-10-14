@@ -50,7 +50,12 @@ print("Hola", nombre, "como es tu apellido?")
 apellido = input()
 print("Un gusto conocerlo", nombre, apellido)
 
+"""
+Podemos guardar el dato de la varibale 
+que devolvera el input en una sola linea 
+"""
 
+nombre = input("Ingrese su nombre\n")#Agregamo un salto de linea con (\n)
 
 
 
@@ -58,4 +63,5 @@ print("Un gusto conocerlo", nombre, apellido)
 Ejercicio 13:
 Pedir año de nacimiento y calcular edad.
 """
+
 
