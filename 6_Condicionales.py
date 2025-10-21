@@ -8,7 +8,8 @@ codigo solo si se cumplen ciertas condiciones
 
 edad = 15
 
-if edad >= 18: #Los dos puntos reprecentan un "entonces"
+if edad >= 18:
+     #Los dos puntos reprecentan un "entonces"
     print("Eres mayor de edad")#Delimitamos lo que se va a ejecutar con una tabulacion
     print("Tu edad es", edad)
     print("Bloque que se ejecuta")#Todo o que esta a este nivel se ejecuta si cumle con la condicion
