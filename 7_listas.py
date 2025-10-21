@@ -1,6 +1,6 @@
 #Creacion de listas
 lista1 = [1,2,3,4,5]# Lista de enteros
-lista2 = ["Manzans", "Bananas", "Naranjas", "Uvas"] #Lista de cadenas de texto
+lista2 = ["Manzanas", "Bananas", "Naranjas", "Uvas"] #Lista de cadenas de texto
 lista3 = ["Palabara", 1, 1.12, True] #Lista de tipos mixto
 
 lista_vacia = []
@@ -8,9 +8,9 @@ lista_vacia = []
 lista_de_listas = [[1,2],[3,4]]
 
 
-#Acceder a elemntos por indice
+#Acceder a elementos por indice
 #Importante recordar el indce 0 es la primera hubicaion, el primero lugar en la lista.
-print(lista2[0]) #El indice cero nos arroa el resultado es manzana
+print(lista2[0]) #El indice cero nos arroja el resultado es manzana
 print(lista2[1]) #Resulatdo Bananas
 
 #Acceder a las posiciones de forma invertida
