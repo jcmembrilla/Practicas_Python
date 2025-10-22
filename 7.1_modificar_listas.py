@@ -20,3 +20,5 @@ lista += [12,13,14]
 
 lonitud_lista = [1,2,3,4,5,6,7,8,9]
 print("La longitus de esta lista es: ", len(lonitud_lista)) #Resultado 9
+
+#comentari 2

@@ -54,6 +54,6 @@ print(lista2[::2]) #Solo indicamos el tercer parametro para que salte de dos en 
 print(lista2[::-1]) #Solo indicamos el tercer parametro para que salte de dos en dos
 
 
-
+#comentario
 
 
