@@ -1,28 +1,4 @@
-### 
-# Funciones 
-# Bloques de codigo reutilizable y parametrizables para hacer tareas especificas
 
-
-"""
-Definicion
-def nombre_de_la_funcion(parametro1, parametro2, ...)
-#Cuerpo de la funcion
-#return valor_de_la_funcion #opcional
-
-"""
-
-# Ejemplo de una funcion para impromir algo en consola
-def saludar():
-    print("Hola!")
-#Aca solo la definimos, la creamos
-
-#RECORDAR a las funciones simpre tenemos que llamarlas, invocarlas.
-#Sino, no van a ejecutarce.
-
-#Una ves que ya esta creada, podemos llamarla todas la veces que queramos.
-saludar()
-saludar()
-saludar()
 
 
 ### Funcion con parametros ###
