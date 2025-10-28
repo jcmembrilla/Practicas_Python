@@ -1,6 +1,7 @@
 """Ejercicios sobre Listas en Python
 
-1. Crea una lista llamada frutas con los elementos "manzana", "banana", "pera" y "naranja". Luego imprime el segundo elemento de la lista.
+1. Crea una lista llamada frutas con los elementos "manzana", "banana", "pera" y "naranja".
+ Luego imprime el segundo elemento de la lista.
 
 2. Usando la lista anterior, imprime el último elemento utilizando un índice negativo.
 
