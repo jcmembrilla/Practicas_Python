@@ -26,8 +26,8 @@ while contador < 3:
 
 ### Evitar bucles infinitos ###
 
-#while True:
-#    print("print infinito")
+while True:
+    print("print infinito")
 
 # palabra reservada break, para cortar el bucle
 

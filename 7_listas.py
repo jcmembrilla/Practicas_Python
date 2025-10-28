@@ -1,4 +1,5 @@
 #Creacion de listas
+"""
 lista1 = [1,2,3,4,5]# Lista de enteros
 lista2 = ["Manzans", "Bananas", "Naranjas", "Uvas"] #Lista de cadenas de texto
 lista3 = ["Palabara", 1, 1.12, True] #Lista de tipos mixto
@@ -27,9 +28,10 @@ print(lista_de_listas[1][0])
 
 #Slicing, Recorte de listas
 lista1 = [1,2,3,4,5,6]
+listaslicing = ["bananas", "manzanas", "peras", "uvas"]
 
 #Objetivo recortar de 3 a 5
-print(lista1[2:5])
+print(lista1[2:3])
 #con esta sintaxis le decims que re corte a partir 
 # del indice 2 asi que comenzaria por el 3 y que 
 # recorte hasta el indice 5. Improtante al indice 
@@ -57,3 +59,4 @@ print(lista2[::-1]) #Solo indicamos el tercer parametro para que salte de dos en
 
 
 
+"""

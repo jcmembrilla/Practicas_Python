@@ -1,4 +1,4 @@
-Ejercicios sobre Listas en Python
+"""Ejercicios sobre Listas en Python
 
 1. Crea una lista llamada frutas con los elementos "manzana", "banana", "pera" y "naranja". Luego imprime el segundo elemento de la lista.
 
@@ -32,3 +32,4 @@ Muestra cuál fue el elemento eliminado.
 14. Crea una lista elementos = ["a", "b", "c", "d"] y elimina el segundo elemento (índice 1) usando del.
 
 15. Crea una lista numeros = [10, 20, 30, 40, 50] y muestra en pantalla cuántos elementos tiene la lista usando la función len().
+"""

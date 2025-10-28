@@ -1,0 +1,89 @@
+#Crea una lista llamada frutas con los elementos "manzana", "banana", "pera" y "naranja".
+#Luego imprime el segundo elemento de la lista.
+
+lista = ["bananas", "manzanas", "peras", "uvas"]
+
+#Usando la lista anterior, imprime el último elemento utilizando un índice negativo.
+print(lista[-1])
+
+
+#Crea una lista llamada numeros con los valores del 1 al 6.
+#Muestra solo los números del 2 al 4 utilizando slicing.
+
+numeros = [1, 2, 3, 4, 5, 6]
+print(numeros[1:4])
+
+#Con la lista numeros, imprime los tres primeros elementos usando slicing.
+
+numeros = [1, 2, 3, 4, 5, 6]
+print(numeros[:3])
+
+#Muestra los tres últimos elementos de la lista numeros utilizando slicing.
+
+numeros = [1, 2, 3, 4, 5, 6]
+print(numeros[3:])
+
+#Crea una lista llamada pares con los números del 2 al 10.
+#Imprime solo los números que estén en posiciones pares (usa el parámetro paso en slicing)
+
+numeros = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numeros[::2])
+
+#Crea una lista reversa con los números del 1 al 5
+# e imprímela al revés utilizando slicing con paso negativo.
+
+numeros = [1, 2, 3, 4, 5]
+print(numeros[::-1])
+
+#Crea una lista colores = ["rojo", "verde", "azul"] y
+#  cambia el primer color por "amarillo".
+ 
+colores = ["rojo", "verde", "azul"]
+
+colores.remove("rojo")
+colores.insert(0, "amarillo")
+
+print(colores)
+
+#Crea una lista vacía llamada animales y agrégale tres animales usando el método append().
+
+animales = ["gato", "perro", "conejo"]
+animales.append("tortuga :")
+ 
+print(animales)
+
+#Crea una lista letras = ["b", "c", "d"] e inserta la letra "a" al comienzo usando insert().
+
+letras = ["b", "c", "d",]
+letras.insert(0,"a") 
+print(letras)
+
+#Crea una lista numeros = [1, 2, 3] y agrega al final los números 4, 5 y 6 usando el método extend().
+
+numeros = [1, 2, 3]
+#numeros.extend(6)
+print(numeros)
+
+#Crea una lista borrar = ["uno", "dos", "tres", "cuatro"] y elimina el elemento "dos" usando remove()
+
+borrar = ["uno", "dos", "tres", "cuatro"]
+borrar.remove("dos")
+print(borrar)
+
+#Crea una lista palabras = ["hola", "chau", "adiós"] y elimina el último elemento con pop().
+#Muestra cuál fue el elemento eliminado.
+
+palabras = ["Hola", "Chau", "Adios"]
+palabras.pop(2)
+print(palabras)
+
+#Crea una lista elementos = ["a", "b", "c", "d"] y elimina el segundo elemento (índice 1) usando del.
+
+elementos = ["a","b","c","d"]
+del elementos[1]
+print(elementos)
+
+#Crea una lista numeros = [10, 20, 30, 40, 50] y muestra en pantalla cuántos elementos tiene la lista usando la función len().
+
+numeros = [10, 20, 30, 40, 50]
+print("la lista de numeros es de :", len(numeros))
