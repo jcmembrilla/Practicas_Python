@@ -1,0 +1,15 @@
+def saludo_personalizado():
+  nombre = input("Como es tu nombre? :")
+  print(f"Tu nombre es {nombre}")
+
+saludo_personalizado()
+
+
+"""
+Función que retorne más de un valor
+Define una función llamada operaciones(a, b) que devuelva la suma y la resta de esos dos números.
+Luego, muestra los resultados así:
+suma, resta = operaciones(10, 5)
+print("Suma:", suma)
+print("Resta:", resta)
+"""
