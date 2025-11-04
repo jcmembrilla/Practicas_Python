@@ -18,7 +18,7 @@ lista2.insert(0, 'a')
 print(lista2)
 
 ## Metodo extend ##
-#Agrega varios elemntos al final de la lista
+#Agrega varios elementos al final de la lista
 
 lista2.extend(["e", "f"])
 print(lista2)

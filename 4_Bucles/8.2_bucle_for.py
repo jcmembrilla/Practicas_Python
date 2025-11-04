@@ -14,9 +14,14 @@ for elemento in secuencia:
 """
 
 # Simple iteracion de lista
-frutas = ["manzana", "banana", "cereza"]
+frutas = ["manzana", "banana", "durazno"]
 for fruta in frutas:
     print(fruta)
+
+# range
+# Iterar 5 veces (números del 0 al 4) usando range
+for i in range(5):
+    print(f"Iteración número: {i}")
 
 # Iterar desde 2 hasta 6 (números 2, 3, 4, 5, 6)
 # Con estos parametros le decimos desde donde y hasta donde queremos que itere
@@ -33,6 +38,21 @@ cadena = "Cadena de texto"
 for caracter in cadena:
     print(caracter)
 
-# Iterar 5 veces (números del 0 al 4) usando range
-for i in range(5):
-    print(f"Iteración número: {i}")
+
+# enumerate() nos va a devolver el indice y el valor
+#Simpre vamos a obtener primero la posicion y luego el valor
+#respetando la sintaxis, pero luego le podemos usar esos valores
+#donde queramos, como en el ejemplo.
+frutas = ["manzana", "banana", "durazno"]
+for index, fruta in enumerate(frutas):
+    print(f"La fruta {fruta} se encuentra en la posicion {index}")
+
+
+# Bucles anidados 
+
+letras = ["A","B","C"]
+numeros = [1,2,3]
+
+for letra in letras:
+    for numero in numeros:
+        print(letra,numero)

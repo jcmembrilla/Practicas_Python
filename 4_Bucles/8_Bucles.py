@@ -2,7 +2,7 @@
 Los bucles en Python son estructuras de control que 
 permiten ejecutar un bloque de código repetidamente 
 hasta que se cumple una condición o para cada elemento
- de una secuencia. Son fundamentales para automatizar tareas repetitivas.
+de una secuencia. Son fundamentales para automatizar tareas repetitivas.
 """
 
 """
