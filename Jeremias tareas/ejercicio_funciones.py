@@ -61,6 +61,52 @@ anterior para obtener el cuadrado y luego imprima el mensaje:
 """
 
 def mostrar_cuadrado(numero):
-    mostrar_cuadrado = resultado2
+    resultado = elevar_al_cuadrado(numero)
+    print(f"El cuadrado de {numero} es {resultado}")
 
-    print(f"el cuadrado de 4 es {resultado2}")
+mostrar_cuadrado(2)
+
+"""
+6. Función con parámetros por teclado
+ Crea una función llamada saludo_personalizado() 
+ que no reciba parámetros, pero que pida el nombre del usuario con input() 
+ y luego muestre un saludo con ese nombre.
+"""
+
+def saludo_personalizado():
+    nombre = input("cual es tú nombre?: ")
+    print(f"que tal {nombre}")
+
+saludo_personalizado()
+
+"""
+7. Función que retorne más de un valor
+ Define una función llamada operaciones(a, b) que devuelva la suma y la resta de esos dos números.
+ Luego, muestra los resultados así:
+suma, resta = operaciones(10, 5)
+print("Suma:", suma)
+print("Resta:", resta)
+"""
+
+def operaciones(a, b):
+    suma = a + b
+    resta = a - b
+    return suma, resta
+
+suma, resta = operaciones(10, 5)
+
+print("suma:", suma)
+print("resta:", resta)
+
+
+"""
+8. Función que combine lógica simple
+ Crea una función llamada es_par(numero) que retorne True si el número es par y False si es impar.
+ Luego, usa esa función en un programa que pida un número y diga por pantalla si es par o impar.
+"""
+
+def es_par(numero):
+    return numero % 2 == 0 
+
+numero = int(input("numero: "))
+print("es par" if es_par(numero) else "es impar")
