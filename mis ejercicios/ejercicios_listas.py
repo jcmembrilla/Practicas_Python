@@ -92,3 +92,4 @@ Crea una lista numeros = [10, 20, 30, 40, 50]
 y muestra en pantalla cuántos elementos tiene la lista usando la función len().
 """
 numeros = [10, 20, 30, 40, 50]
+print(f"Cantidad de elementos de la lista {len(numeros)}")

@@ -62,20 +62,35 @@ Comprobar si un usuario se encuentra en el rango etario entre 20 y 30 años.
 """
 Pedir el año de nacimiento y determinar si la persona es mayor de edad.
 """
-año = int(input("Ingrese año actual: "))
-nac = int(input("Ingrese su año de nacimiento: "))
-edad = año - nac
+# año = int(input("Ingrese año actual: "))
+# nac = int(input("Ingrese su año de nacimiento: "))
+# edad = año - nac
 
-if edad >= 18:
-    print ("Eres mayor de edad.")
-    print ("Tienes ", edad, "años.")
-else: 
-    print ("Eres menor de edad")
-    print ("Tienes ", edad, "años.")
+# if edad >= 18:
+#     print ("Eres mayor de edad.")
+#     print ("Tienes ", edad, "años.")
+# else: 
+#     print ("Eres menor de edad")
+#     print ("Tienes ", edad, "años.")
 """
 Verificar si un número ingresado es múltiplo de 5.
-"""
+# """
+# numero = int(input("Ingrese un número:"))
+# resto = numero%5
+# if resto == 0:
+#     print(f"El número {numero} es multiplo 5.")
+# else:
+#     print(f"El número {numero} no es multiplo 5.")
 
 """
-Pedir don números e indicar cuál es el mayor o si son iguales.
+Pedir dos números e indicar cuál es el mayor o si son iguales.
 """
+numero_1 = int(input("Ingrese un número:"))
+numero_2 = int(input("Ingrese otro número:"))
+
+if numero_1 == numero_2:
+    print(f"Los números ingresados son iguales. Ingresaste el número {numero_1} dos veces.")
+elif numero_1 < numero_2:
+    print(f"El {numero_1} es menor que {numero_2}")
+else:
+    print(f"El {numero_1} es mayor que {numero_2}")
