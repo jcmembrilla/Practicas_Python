@@ -33,7 +33,7 @@ multiplicar(4,5)
  #Luego, guarda ese valor en una variable y muéstralo por pantalla.
 
 def elevar_al_cuadrado(numero):
-   cuadrado = numero*numero
+   cuadrado = numero*numero     #(numero ** 2) para elevar a las potencias
    return cuadrado
 
 
@@ -104,4 +104,8 @@ if es_par(num):
     print(f"El número {num} es par.")
 else:
     print(f"El número {num} es impar.")
+
+#9  hacer una funcion que haga un juego que adivine un numero del 1 al 10
+
+
 
