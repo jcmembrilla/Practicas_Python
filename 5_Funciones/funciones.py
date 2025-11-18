@@ -32,6 +32,7 @@ def saludar_a(nombre): #Declaramos el paramtro
 saludar_a("Pedro")#Le pasamos el argumento que queramos
 saludar_a("Juan")
 saludar_a("Maria")
+saludar_a("Sandra")
 #Podemos ver como comienza a tener sentido crear una funcion
 #Solo pasandole un argumento se ejecuta el bloque de codigo 
 # que preparamos, que ya pensamos y esta esperando que lo usemos.
