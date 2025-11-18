@@ -17,12 +17,12 @@ while condicion_es_verdadera:
     # ... debe haber una forma de que la condición cambie a False
 """
 
-contador = 0
-#De esta forma podemos ver claramente la condicion de salida del bucle
-while contador < 3:
-    #Mientras la condicon se cumpla el bloque de codigo se va a ejecutar constantemente
-    print(f"El contador es: {contador}")
-    contador += 1  # Incrementa el contador en 1 (paso crucial)
+# contador = 0
+# #De esta forma podemos ver claramente la condicion de salida del bucle
+# while contador < 3:
+#     #Mientras la condicon se cumpla el bloque de codigo se va a ejecutar constantemente
+#     print(f"El contador es: {contador}")
+#     contador += 1  # Incrementa el contador en 1 (paso crucial)
 
 
 ### Evitar bucles infinitos ###
@@ -33,12 +33,12 @@ while contador < 3:
 # Palabra reservada break, para cortar el bucle
 #Cuando no sabemos exactanmente la condicion de salida 
 #Podemos utilizar break para que procese, hasta encontrar esa condicion.
-contador2 = 0
-while True:
-    print(contador2)
-    contador2 += 1
-    if contador2 == 5:
-        break # Orden para salir del bucle
+# contador2 = 0
+# while True:
+#     print(contador2)
+#     contador2 += 1
+#     if contador2 == 5:
+#         break # Orden para salir del bucle
 
 ##palabre reservada continue: hace saltar esa iteraccion en concreto 
 # y continua con el bucle
