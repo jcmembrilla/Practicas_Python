@@ -87,12 +87,12 @@
 #  Crea un programa que utilice un bucle while para sumar los números del 1 al 5.
 #  Debe mostrar al final: "La suma total es: X", donde X es el resultado de la suma.
 suma = 0
-numbers = list(range(1, 6))
+numbers = list(range(1, 100))
 counter = 0
 
-while True:
-    if numbers[counter]:
-        suma += numbers[counter]
+while counter < 5:
+    suma += numbers[counter]
+    print(numbers[counter])
     counter += 1
 
 print(f"La suma total es: {suma}.")
