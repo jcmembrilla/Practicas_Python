@@ -7,8 +7,8 @@
  "Adiós, [nombre]. ¡Nos vemos pronto!"
  Prueba la función con tres nombres diferentes.
  
-3. Función con dos parámetros
- Crea una función llamada multiplicar(a, b) que reciba dos números, calcule el producto y lo imprima.
+3. Función con dos parámetros Crea una función llamada multiplicar(a, b) que reciba dos números, calcule el producto y lo imprima.
+
  
 4. Función con retorno de valor
  Crea una función llamada elevar_al_cuadrado(numero) que reciba un número, calcule su cuadrado y retorne el resultado.
