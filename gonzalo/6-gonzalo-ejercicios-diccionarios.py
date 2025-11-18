@@ -20,9 +20,9 @@ datos_libro = {
 }
 print(datos_libro["autor"])
 # Añade un nuevo par clave-valor: "genero" con el valor "Novela".
-
+datos_libro["genero"] = "Novela"
 # Imprime el diccionario completo.
-
+print(datos_libro)
 # ## Ejercicio 2: Iteración con Diccionario (.items()) 
 # Objetivo: Practicar la iteración simultánea de claves y valores usando el método .items().
 
@@ -31,6 +31,9 @@ print(datos_libro["autor"])
 # Crea un bucle for que recorra el diccionario usando el método .items().
 
 # Dentro del bucle, imprime la clave y el valor en el siguiente formato: [Clave]: [Valor].
+for key, value in datos_libro.items():
+    print(f"{key}: {value}.")
+
 
 # ## Ejercicio 3
 # Objetivo: Practicar la modificación de valores existentes y la eliminación de una clave en un diccionario, 
@@ -50,3 +53,14 @@ print(datos_libro["autor"])
 # Crea un bucle for que recorra el diccionario usando el método .items().
 
 # Dentro del bucle, imprime solo los productos cuyo stock sea mayor a 0.
+inventario = {
+    "pan": 100,
+    "leche": 50,
+    "huevos": 30
+}
+inventario["pan"] = 0
+del inventario["huevos"]
+for key, value in inventario.items():
+    if value > 0:
+        print(f"{key}: {value}.")
+print(inventario)
