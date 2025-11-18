@@ -34,3 +34,5 @@ print("Resta:", resta)
  Crea una función llamada es_par(numero) que retorne True si el número es par y False si es impar.
  Luego, usa esa función en un programa que pida un número y diga por pantalla si es par o impar.
 
+9. Creaer un juego que adivine un numero del 1 al 10
+

@@ -26,9 +26,9 @@ perfil_usuario = {
     "hobbies": ["leer", "viajar", "programar"]
 }
 
-# # Acceder a un valor específico usando la clave
-# print(f"El nombre del usuario es: {perfil_usuario['nombre']}") 
-# # Salida: El nombre del usuario es: Elena
+# Acceder a un valor específico usando la clave
+print(f"El nombre del usuario es: {perfil_usuario['nombre']}") 
+# Salida: El nombre del usuario es: Elena
 
 # # Acceder a un elemento dentro de la lista de hobbies
 # print(f"Su primer hobby es: {perfil_usuario['hobbies'][0]}")
