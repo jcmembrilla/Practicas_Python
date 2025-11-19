@@ -93,14 +93,44 @@ print("Resta:", resta)
  Crea una función llamada es_par(numero) que retorne True si el número es par y False si es impar.
  Luego, usa esa función en un programa que pida un número y diga por pantalla si es par o impar.
 """
-def es_par(numero):
-    resto = numero%2
-    if resto == 0:
-        print(f"El número {numero} es par.")
-    else:
-        print(f"El número {numero} es impar.")
+# def es_par(numero):
+#     resto = numero%2
+#     if resto == 0:
+#         print(f"El número {numero} es par.")
+#     else:
+#         print(f"El número {numero} es impar.")
 
-es_par(1)
-es_par(2)
+# es_par(1)
+# es_par(2)
+"""
+9. Creaer un juego que adivine un numero del 1 al 10
+"""
+import random
+
+def generar_numero():
+    """Genera y devuelve un número secreto entre 1 y 10."""
+    return random.randint(1, 10)
+
+def pedir_intento():
+    """Pide al usuario un número y lo devuelve como entero."""
+    return int(input("Ingresa un número del 1 al 10: "))
+
+def jugar():
+    numero_secreto = generar_numero()
+    print("¡Adivina el número del 1 al 10!")
+
+    while True:
+        intento = pedir_intento()
+
+        if intento == numero_secreto:
+            print("¡Correcto, adivinaste el número!")
+            break
+        elif intento < numero_secreto:
+            print("El número es más alto, intenta otra vez.")
+        else:
+            print("El número es más bajo, intenta de nuevo.")
+
+# Llamamos a la función principal
+jugar()
 
 
