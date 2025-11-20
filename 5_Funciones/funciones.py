@@ -11,10 +11,10 @@ def nombre_de_la_funcion(parametro1, parametro2, ...)
 
 """
 
-# Ejemplo de una funcion para impromir algo en consola
+# Ejemplo de una funcion para imprimir algo en consola
 def saludar():
     print("Hola!")
-#Aca solo la definimos, la creamos
+#Aca solo la definimos, la creamos.
 
 #RECORDAR a las funciones simpre tenemos que llamarlas, invocarlas.
 #Sino, no van a ejecutarce.
@@ -32,6 +32,7 @@ def saludar_a(nombre): #Declaramos el paramtro
 saludar_a("Pedro")#Le pasamos el argumento que queramos
 saludar_a("Juan")
 saludar_a("Maria")
+saludar_a("Sandra")
 #Podemos ver como comienza a tener sentido crear una funcion
 #Solo pasandole un argumento se ejecuta el bloque de codigo 
 # que preparamos, que ya pensamos y esta esperando que lo usemos.

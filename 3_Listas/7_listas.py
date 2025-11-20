@@ -12,6 +12,9 @@ lista_de_listas = [[1,2],[3,4]]
 #Acceder a elementos por indice
 #Importante recordar el indice 0 es la primera ubicacion, el primero lugar en la lista.
 print(lista2[0]) #El indice cero nos arroja el resultado, es manzana
+#Acceder a elemntos por indice
+#Importante recordar el indce 0 es la primera hubicaion, el primero lugar en la lista.
+print(lista2[0]) #El indice cero nos arroja el resultado que es manzana
 print(lista2[1]) #Resulatdo Bananas
 
 #Acceder a las posiciones de forma invertida
@@ -29,6 +32,7 @@ print(lista_de_listas[1][0])
 #Slicing, Recorte de listas
 lista1 = [1,2,3,4,5,6]
 listaslicing = ["bananas", "manzanas", "peras", "uvas"]
+colores = ["azul", "rojo", "naranja", "verde", "amarillo", "violeta", "rosa"]
 
 #Objetivo recortar de 3 a 5
 print(lista1[2:3])
@@ -36,21 +40,26 @@ print(lista1[2:3])
 # del indice 2 asi que comenzaria por el 3 y que 
 # recorte hasta el indice 5. Improtante al indice 
 # que marcamos primero lo incuye y al ultmo lo excluye
+print(colores[2:5])
+#Improtante al indice que marcamos primero lo incuye y al ultimo lo excluye
+#con esta sintaxis le decimos que recorte a partir 
+# del indice 2 (lo incluye) asi que comenzaria por naranja y que 
+# recorte hasta el indice 5 (lo excluye) asi que iria hasta amarillo. 
 
 #Si quieres recortar desde el principio dejas el primer valor en blaco
 #y dices hasta que ndice quieres
-print(lista1[:3]) #Resultado los tresprimeros numeros
+print(colores[:3]) #Resultado los tresprimeros numeros
 
-lista1 = [1,2,3,4,5,6]
+colores = ["azul", "rojo", "naranja", "verde", "amarillo", "violeta", "rosa"]
 #Obter los tres ultimos
-print(lista1[3:])
+print(colores[3:])
 #Le indicamos que queremos los ultimos tres numeros dejando en blanco el segundo valor
 
 #Recorrer la lista con el parametro paso
 #list[desde:hasta:paso]
 
-lista2 = [1,2,3,4,5,6,7,8]
-print(lista2[::2]) #Solo indicamos el tercer parametro para que salte de dos en dos
+lista3 = [1,2,3,4,5,6,7,8]
+print(lista3[::2]) #Solo indicamos el tercer parametro para que salte de dos en dos
 
 #Podemos pedir la mima lista de forma inversa, didicando -1 en el tercer parametro
 print(lista2[::-1]) #Solo indicamos el tercer parametro para que salte de dos en dos
@@ -60,3 +69,4 @@ print(lista2[::-1]) #Solo indicamos el tercer parametro para que salte de dos en
 
 
 """
+print(lista3[::-1]) #Solo indicamos el tercer parametro para que salte de dos en dos
