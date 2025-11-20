@@ -21,7 +21,8 @@ tuple = animales
 print(tuple[0])
 print(tuple[2])
 
-
+for animales in tuple:
+    print(animales)
 
 
 
