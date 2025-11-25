@@ -38,7 +38,9 @@ print(animales)
 #Luego imprimí el valor asociado a una de esas coordenadas.
 
 coordenadas = {
-    "x" : ("milar") ,
+    "x" : ("milan") ,
     "y" : ("inter")
 }
-print("y")
+ciudad_x = ("x")
+ciudad_y = ("y")
+print("la ciudad x es : ", coordenadas[ciudad_x])
