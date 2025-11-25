@@ -21,6 +21,24 @@ print(animales[0],animales[2])
 #Convertí la tupla animales en una lista, agregá un nuevo elemento, y luego volvé a convertirla en tupla.
 #Mostrá la tupla resultante.
 
+animales = ("gato","perro","raton")
+lis_animales = list (animales)
+print(lis_animales)
+print(type(lis_animales))
+lis_animales.append("caballo")
+print(lis_animales)
+lis_animales = tuple (animales)
+print(type(animales))
+print(animales)
+
+
+
 #4. Uso como clave en un diccionario:
 #Creá un diccionario llamado coordenadas donde las claves sean tuplas que representen posiciones (x, y) y los valores sean nombres de ciudades.
 #Luego imprimí el valor asociado a una de esas coordenadas.
+
+coordenadas = {
+    "x" : ("milar") ,
+    "y" : ("inter")
+}
+print("y")
