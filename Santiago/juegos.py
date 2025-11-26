@@ -5,31 +5,30 @@ cada jugador tiene dos tiradas
 
 
 import random
-def tirada_de_dados():
-    random.randint(1, 6)
 
+def tirada_de_dados():
+    return random.randint(1, 6)
 
 def batalla_de_dados():
-    jugador1 = 0
-    
-    primera_tirada = tirada_de_dados 
-    segunda_tirada = tirada_de_dados 
-    
-    jugador1 = primera_tirada() + segunda_tirada()
-    jugador2 = primera_tirada() + segunda_tirada()
+    # Tiradas jugador 1
+    p1 = tirada_de_dados()
+    p2 = tirada_de_dados()
+    jugador1 = p1 + p2
 
-    print( f"{jugador1}")
-    print(f"{jugador2}")
+    # Tiradas jugador 2
+    s1 = tirada_de_dados()
+    s2 = tirada_de_dados()
+    jugador2 = s1 + s2
+
+    print(f"Jugador 1 sacó: {p1} y {p2} = {jugador1}")
+    print(f"Jugador 2 sacó: {s1} y {s2} = {jugador2}")
 
     if jugador1 > jugador2:
-        print(f"gano {jugador1}")
-
+        print("Ganó el jugador 1")
     elif jugador2 > jugador1:
-
-        print(f"gano {jugador2}")
+        print("Ganó el jugador 2")
     else:
+        print("Empate")
 
-        print("empate")
-
-
-print(batalla_de_dados())
+# Ejecutar
+batalla_de_dados()
