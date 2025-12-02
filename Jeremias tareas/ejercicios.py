@@ -1,4 +1,4 @@
-"""
+
 def es_par(numero):
     if numero % 2 == 0:
         return True
@@ -13,4 +13,3 @@ if es_par(numero):
 else:
     print(f"El número {numero} es impar.")
 
-"""
