@@ -1,0 +1,9 @@
+Reglas para el ta-te-ti
+- lograr una ilera de tres items del mismo color
+Codigo
+- mostrar juego como una matriz con 3 listas
+- iniciar la matriz con elementos no tocados, representado con un "-"
+- a cada usuario se le asigna un signo con el que va llenando la matriz
+- si el espacio es "-" se le asigna el signo del usuario. Si tiene otro valor o no existe en el rango pedir nuevo valor
+- estrategia para decretar al ganador:
+    iterar la matriz en cada ingreso. dependiendo de las direcciones posibles
