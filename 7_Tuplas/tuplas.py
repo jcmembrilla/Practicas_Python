@@ -2,7 +2,7 @@
 ¿Qué es una tupla?
 
 Una tupla es una estructura de datos en Python que permite almacenar
-varios elementos en una sola variable, de forma ordenada pero inmutable.
+varios elementos en una sola variable, de forma ordenada pero INMUTABLE.
 Esto significa que una vez creada, no se puede modificar, es decir, no se 
 pueden agregar, eliminar ni cambiar sus elementos.
 
